@@ -1,4 +1,4 @@
-"""Task error types with stable exit codes.
+"""Task failure types with stable process exit codes.
 
 Tasks signal failure to the dispatcher through the process exit code. Giving each
 failure class its own code lets the dispatcher tell "bad configuration" from "the

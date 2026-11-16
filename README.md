@@ -43,7 +43,7 @@ if __name__ == "__main__":
 A consuming Dockerfile can copy the source from a named context:
 
 ```dockerfile
-COPY --from=task_runtime task_runtime_base /opt/task_runtime/task_runtime_base
+COPY --from=task_runtime src/task_runtime_base /opt/task_runtime/task_runtime_base
 ENV PYTHONPATH=/opt/task_runtime
 ```
 

@@ -1,4 +1,4 @@
-"""Output directory and task log.
+"""Output directory, file reservation, and run-manifest helpers.
 
 Every task writes to `/out/<task_id>/`, a per-run directory inside the writable
 bind mount. The backend resolves that same path to list and serve the results, so

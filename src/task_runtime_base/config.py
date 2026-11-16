@@ -1,4 +1,4 @@
-"""Environment configuration helpers.
+"""Environment-variable configuration helpers.
 
 Task containers are configured entirely through environment variables, injected
 by the dispatcher from `container_env_json`. These helpers make reading them

@@ -1,4 +1,4 @@
-"""Host-to-container path translation with containment checks.
+"""Safe host-to-container path translation with containment checks.
 
 The host mounts a data tree read-only inside the container at a different prefix:
 

@@ -1,4 +1,4 @@
-"""Shared runtime helpers for containerized tasks.
+"""Shared Python runtime helpers for containerized tasks.
 
 Every task container repeats the same five things: read configuration from the
 environment, translate host paths to container paths, keep those paths inside
@@ -52,7 +52,7 @@ from task_runtime_base.paths import PathTranslator
 from task_runtime_base.process import RunResult, run
 from task_runtime_base.progress import die, log_info, log_step, message, summary
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "env",

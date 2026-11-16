@@ -1,4 +1,4 @@
-"""CRS-aware helpers for measurements that must come out in metres.
+"""CRS-aware SQL helpers for measurements that must come out in metres.
 
 The trap this module exists to close
 ------------------------------------

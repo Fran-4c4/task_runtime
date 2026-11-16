@@ -1,4 +1,4 @@
-"""Progress and structured messages emitted by task containers.
+"""Progress, log lines, and structured messages emitted by task containers.
 
 The dispatcher reads container stdout. A line beginning with `NN% ` is a
 progress update, stored on the task request with its message. A line that is a

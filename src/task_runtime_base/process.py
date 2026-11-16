@@ -1,4 +1,4 @@
-"""Subprocess wrapper for the external tools tasks drive (ogr2ogr, pdal, rsync)."""
+"""Subprocess wrapper for external command-line tools driven by tasks."""
 
 from __future__ import annotations
 
